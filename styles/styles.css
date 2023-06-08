@@ -1,0 +1,54 @@
+
+@import 'colours.css';
+@import 'navStyles.css';
+@import 'profileSectionStyles.css';
+@import 'taskSectionStyles.css';
+@import 'skillsStyles.css';
+@import 'videoStyles.css';
+
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins';
+}
+
+main {
+  padding: 0;
+  margin: 0
+}
+
+h2, h3, h4 {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 28px;
+  color: var(--and-red);
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 600;
+  border-bottom: 2px solid var(--and-font-grey);
+}
+
+h4 {
+  font-weight: bold;
+}
+
+header {
+  background-color: var(--and-black);
+  height: 150px;
+}
+
+main {
+  max-width: 1280px;
+  margin: auto;
+  padding: 0 20px 0 20px;
+  color: var(--and-font-grey);
+  font-size: 14px;
+}
+
+

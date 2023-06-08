@@ -1,0 +1,19 @@
+.tasks {
+  background-color: var(--and-light-grey);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.task-card-container {
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+.task-card {
+  padding: 10px;
+  margin: 0 10px 0 10px;
+  background-color: var(--and-red);
+  width: 200px;
+  color: var(--and-white);
+}

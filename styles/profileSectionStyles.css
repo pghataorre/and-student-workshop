@@ -1,0 +1,35 @@
+.profile {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.profile-details {
+  height: 100%;
+  margin-right: 20px;
+}
+
+.profile-image img {
+  width: 200px;
+}
+
+
+.profile-details .social-media ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.profile-details .social-media li {
+  padding-right: 10px;
+}
+
+.profile-details img {
+  width: 30px;
+  height: 30px;
+}
+
+.profile-details a:hover {
+  opacity: 0.6;
+}
