@@ -1,0 +1,15 @@
+
+button {
+  font-family: 'Poppins';
+  cursor: pointer;
+  background-color: var(--and-red);
+  color: var(--and-white);
+  border: none;
+  border-radius: 20px;
+  padding: 5px 10px 5px 10px;
+}
+
+button:hover {
+  background-color: var(--and-light-grey);
+  color: var(--and-black);
+}
