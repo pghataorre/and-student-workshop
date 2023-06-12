@@ -20,18 +20,5 @@ const moveSlider = (sliderValue, nextSibling) => {
   nextSibling.innerText = sliderValue;
 }
 
-const attachShowHideVideoEvents = () => {
-  const toggleButtons = document.querySelectorAll('.video-display-toggle');
-  if (toggleButtons === undefined || toggleButtons.length == 0) return;
-
-
-  toggleButtons.forEach((buttonItem, index) => {
-    buttonItem.addEventListener('click', (event) => {
-      let videoBlock = document.getElementsByClassName('video')[index];
-      videoBlock.classList.add('video--show');
-      
-    });
-  });
-}
 
 
